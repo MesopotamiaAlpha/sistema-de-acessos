@@ -1,20 +1,22 @@
 package Operacao;
 
 import Classes.Usuarios;
+import Classes.Contas;
 
 public class Acessos {
     public static void main(String[] args) {
 
         Usuarios pessoa = new Usuarios();
         Usuarios pessoa1 = new Usuarios();
+        Contas contas = new Contas();
         
 
-        pessoa.nome = "josé";
-        pessoa.cidade = "Pato Branco";
+        pessoa.nome = "josé ";
+        pessoa.cidade = "Pato Branco ";
         pessoa.ocupado = true;
         pessoa.resultado = pessoa.isOcupado(pessoa.ocupado);
 
-        System.out.println(pessoa.ocupado + " " + pessoa.nome + " " + pessoa.cidade+"\n");
+        System.out.println(pessoa.ocupado + " " + pessoa.nome + " " + pessoa.cidade+ contas.conta1 + contas.senha1 +"\n");
 
         pessoa1.nome = "Carlos";
         pessoa1.cidade = "Laranjeiras do sul";
