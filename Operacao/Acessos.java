@@ -16,7 +16,7 @@ public class Acessos {
         pessoa.ocupado = true;
         pessoa.resultado = pessoa.isOcupado(pessoa.ocupado);
 
-        System.out.println(pessoa.ocupado + " " + pessoa.nome + " " + pessoa.cidade+ contas.conta1 + contas.senha1 +"\n");
+        System.out.println(pessoa.ocupado + " " + pessoa.nome + " " + pessoa.cidade+ contas.getConta1(null) + contas.getSenha1(null) +"\n");
 
         pessoa1.nome = "Carlos";
         pessoa1.cidade = "Laranjeiras do sul";

@@ -2,10 +2,10 @@ package Classes;
 
 
 public class Usuarios {
-    public String nome;
-    public boolean ocupado = false;
-    public String cidade;
-    public boolean resultado;
+    private String nome;
+    private boolean ocupado = false;
+    private String cidade;
+    private boolean resultado;
     
 
     public boolean isOcupado(boolean resultado) {
@@ -18,4 +18,19 @@ public class Usuarios {
         }
     }
 
+    public String getNome(String nome) {
+        return this.nome;
+    }
+
+    public boolean getOcupado(boolean ocupado) {
+        return this.ocupado;
+    }
+
+    public String getCidade(String cidade) {
+        return this.cidade;
+    }
+
+    public boolean getResultado(boolean resultado) {
+        return this.resultado;
+    }
 }
