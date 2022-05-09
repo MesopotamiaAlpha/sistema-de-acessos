@@ -14,8 +14,7 @@ public class Acessos {
         pessoa.setNome("josé ") ;
         pessoa.setCidade ("Pato Branco ");
         pessoa.setOcupado (true);
-        //arrumar o resultado
-        //pessoa.resultado = pessoa.isOcupado(pessoa.ocupado);
+        pessoa.setResultado(pessoa.isOcupado(pessoa.getOcupado()));
 
         System.out.println(pessoa.getOcupado() + " " + pessoa.getNome(null) + " " + pessoa.getCidade(null) + contas.getConta1(null) + contas.getSenha1(null) +"\n");
 
