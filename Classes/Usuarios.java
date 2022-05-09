@@ -22,7 +22,17 @@ public class Usuarios {
         return this.nome;
     }
 
-    public boolean getOcupado(boolean ocupado) {
+    public String setNome(String Nome){
+        this.nome = Nome;
+        return this.nome;
+    }
+
+    public boolean getOcupado() {
+        return this.ocupado;
+    }
+
+    public boolean setOcupado(boolean Ocupado){
+        this.ocupado = Ocupado;
         return this.ocupado;
     }
 
@@ -30,7 +40,19 @@ public class Usuarios {
         return this.cidade;
     }
 
+    public String setCidade(String Cidade){
+        this.cidade = Cidade;
+        return this.cidade;
+    }
+
     public boolean getResultado(boolean resultado) {
         return this.resultado;
     }
+
+    public boolean setResultado(boolean Resultado){
+        this.resultado = Resultado;
+        return this.resultado;
+    }
+
+    
 }

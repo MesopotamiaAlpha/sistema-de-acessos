@@ -11,20 +11,21 @@ public class Acessos {
         Contas contas = new Contas();
         
 
-        pessoa.nome = "josé ";
-        pessoa.cidade = "Pato Branco ";
-        pessoa.ocupado = true;
-        pessoa.resultado = pessoa.isOcupado(pessoa.ocupado);
+        pessoa.setNome("josé ") ;
+        pessoa.setCidade ("Pato Branco ");
+        pessoa.setOcupado (true);
+        //arrumar o resultado
+        //pessoa.resultado = pessoa.isOcupado(pessoa.ocupado);
 
-        System.out.println(pessoa.ocupado + " " + pessoa.nome + " " + pessoa.cidade+ contas.getConta1(null) + contas.getSenha1(null) +"\n");
+        System.out.println(pessoa.getOcupado() + " " + pessoa.getNome(null) + " " + pessoa.getCidade(null) + contas.getConta1(null) + contas.getSenha1(null) +"\n");
 
-        pessoa1.nome = "Carlos";
-        pessoa1.cidade = "Laranjeiras do sul";
-        pessoa1.ocupado = false;
-        pessoa1.resultado = pessoa1.isOcupado(pessoa1.ocupado);
+        pessoa1.setNome("Carlos");
+        pessoa1.setCidade("Laranjeiras do sul");
+        pessoa1.setOcupado(false);
+        pessoa1.setResultado(pessoa1.isOcupado(pessoa1.setOcupado(false)));
 
 
-        System.out.println(pessoa1.ocupado + " " + pessoa1.nome + " " + pessoa1.cidade+"\n");
+        System.out.println(pessoa1.getOcupado() + " " + pessoa1.getNome(null) + " " + pessoa1.getCidade(null) + contas.getConta2(null) + contas.getSenha2(null) +"\n");
 
     }
 }
